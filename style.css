@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+#navbar-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 174, 250);
+    padding: 10px;
+}
+#navbar-links li{
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+#navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+#navbar-links a:hover{
+    color: black;
+}
+main{
+    margin: 10px;
+}
+#about-me{
+    width: 50%
+}
+#about-me h3{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
