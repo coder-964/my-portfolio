@@ -1,34 +1,28 @@
 *{
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-}
 header h1{
     margin: 10px;
     text-align: center;
 }
-main{
-    margin: 10px;
-}
 #about-me{
     width: 50%;
-    height: 50%;
-    display: inline-block;
+    height: 300px;
     float: left;
     padding: 10px;
     border: 10px solid black;
+    border-right: 5px solid black;
 }
 #about-me h3{
     text-align: center;
 }
 #skills{
     width: 50%;
-    height: 30%;
-    display: inline-block;
+    height: 300px;
     float: left;
     padding: 10px;
     border: 10px solid black;
+    border-left: 5px solid black;
 }
 #skills h3{
     text-align: center;
@@ -36,4 +30,16 @@ main{
 #skills dt{
     font-weight: bold;
     color: blue
+}
+#contact{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+#contact p{
+    margin: 0;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
 }
