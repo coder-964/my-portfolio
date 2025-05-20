@@ -1,32 +1,39 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
-#navbar-links{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(119, 174, 250);
-    padding: 10px;
-}
-#navbar-links li{
-    display: inline;
-    color: white;
-    padding: 10px;
-}
-#navbar-links a{
-    text-decoration: none;
-    color: white;
-}
-#navbar-links a:hover{
-    color: black;
+header h1{
+    margin: 10px;
+    text-align: center;
 }
 main{
     margin: 10px;
 }
 #about-me{
-    width: 50%
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    border: 10px solid black;
 }
 #about-me h3{
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+}
+#skills{
+    width: 50%;
+    height: 30%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    border: 10px solid black;
+}
+#skills h3{
+    text-align: center;
+}
+#skills dt{
+    font-weight: bold;
+    color: blue
 }
